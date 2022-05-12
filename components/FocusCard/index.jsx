@@ -8,7 +8,7 @@ import { FiChevronLeft } from "react-icons/fi";
 export default function FocusCard() {
   return (
     <div className={styles.nav_focus}>
-      <Image src={logo} width="50" height="50" />
+      <Image alt="logo" src={logo} width="50" height="50" />
       <Link href="/">
         <a>
           <div>
