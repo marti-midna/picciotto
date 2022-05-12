@@ -24,7 +24,7 @@ const AddNewMessage = ({ reloadData, setReloadData }) => {
       <form onSubmit={onSendData}>
         <label htmlFor="message">Messaggio</label>
         <input
-          class={styles.input}
+          className={styles.input}
           type="text"
           id="message"
           name="message"
@@ -34,7 +34,7 @@ const AddNewMessage = ({ reloadData, setReloadData }) => {
 
         <label htmlFor="user">Utente</label>
         <input
-          class={styles.input}
+          className={styles.input}
           type="text"
           id="user"
           name="user"
