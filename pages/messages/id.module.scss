@@ -1,0 +1,17 @@
+@import "../../styles/variables.scss";
+
+.card {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.35);
+    border-radius: 6px;
+    padding: 2rem;
+    margin: 1rem;
+
+    .deleteicon {
+        color: rgb(199, 199, 199);
+        text-align: end;
+    }
+
+    .deleteicon:hover {
+        color: $primary_color;
+    }
+}

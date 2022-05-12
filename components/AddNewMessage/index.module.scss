@@ -1,0 +1,39 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixins.scss";
+
+.wrapper {
+  width: 100vw;
+  form {
+    @include flex(row, center, center, 20px);
+    width: 100%;
+    padding: 25px 10px;
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.45);
+    background-color: #f1f1f1;
+    font-weight: bold;
+    color: $secondary_color;
+
+    input[type="text"] {
+      border-radius: 1rem;
+      line-height: 1.5rem;
+      width: 300px;
+      border: none;
+      padding-left: 1rem;
+    }
+
+    input[type="submit"] {
+      border-radius: 1rem;
+      line-height: 1.5rem;
+      border: none;
+      width: 80px;
+      background-color: $primary_color;
+      color: white;
+      font-weight: bold;
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+
+    .input:focus-visible {
+      outline:2px solid $primary_color ;
+  }
+  }
+}

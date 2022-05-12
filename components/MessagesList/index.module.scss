@@ -1,0 +1,37 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixins.scss";
+
+.wrapper {
+  @include flex(column, center, center);
+  width: 50%;
+
+  &__message {
+    padding: 5px 15px;
+    width: 100%;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.35);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    h3 {
+      color: $secondary_color;
+    }
+    p {
+      color: $primary_color;
+      
+    }
+
+    .deleteicon {
+      padding-top: 0.5rem;
+      color: rgb(199, 199, 199);
+      text-align: end;
+      
+    }
+
+    .deleteicon:hover {
+      color: $primary_color;
+    }
+        
+  }
+}

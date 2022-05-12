@@ -1,0 +1,15 @@
+.nav_focus {
+    padding: 10px 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+
+    a{
+        display: flex;
+        align-items: center;
+    }
+
+    p {
+        display: inline;
+    }
+}
